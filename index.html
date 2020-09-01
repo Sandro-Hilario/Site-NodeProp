@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NodeProp - Especializada em Soluções Digitais</title>
+    <meta name="decription" content="Agência especializada em Marketing Digital, 
+    Criação de Aplicativos Mobile.">
+    <meta name="keywords" content="Agência Digital, Marketing, Sites">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Sandro Hilario">
+    <meta name="date" content=" Projeto - Cliente: Agência de Propaganda dia: 27/08/2020">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet"> <!-- CSS rules: font-family: 'Lato', sans-serif; -->
+    <link rel="icon" href="img/icon.png" sizes="56x56">
+</head>
+
+<body>
+    <!-- Cabeçalho so Site -->
+    <header class="cabecalho">
+        <a href="index.html" class="logo"></a>
+        <!-- Menu Hamburguer -->
+        <button class="btn-menu"><i class="fas fa-bars fa-lg"></i></button>
+        <nav class="menu">
+            <!-- Menu Close -->
+            <a class=btn-close><i class="fas fa-times fa-lg"></i></a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Serviços</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- Bnanner de Fundo fixed -->
+    <div class="banner">
+        <div class="title">
+            <hgroup>
+                <h2>OUSE INOVAR!</h2>
+                <h3>Criamos experiências e estabelecemos ações
+                    estratéicas que conectam marcas e consumidores </h3>
+            </hgroup>
+        </div>
+        <div class="buttons">
+            <button class="btn-cadastrar">Cadastrar<i class="fas fa-arrow-circle-right"></i></button>
+            <button class="btn-sobre">Sobre<i class="fas fa-question-circle"></i></button>
+        </div>
+    </div>
+    <!-- Conteudo Principal Serviços -->
+    <main class="servicos">
+        <article class="servico">
+            <figure>
+                <a href="#"><img src="img/criacoes.jpg" alt="Campanhas publicitárias"></a>
+            </figure>
+            <div class="inner">
+                <a href="#">Campanhas Publicitárias</a>
+                <h4>Impressos, TVs e Jingles</h4>
+                <p>Se você está precisando de criação de algum material em específico, conte com a nossa equipe de profissionais.Eles farão toda campanha publicitária. VT, outdoor, folder, anúncio e muito mais pela sua empresa no mais alto padrão de qualidade.</p>
+            </div>
+        </article>
+        <article class="servico">
+            <figure>
+                <img src="img/md.jpg" alt="Marketing Digital">
+            </figure>
+            <div class="inner">
+                <a href="#">Marketing Digital</a>
+                <h4>Administração de Redes Sociais</h4>
+                <p>Como agência de publicidade aplicamos estratégias nos meios
+                    digitais para que a seu negócio seja visto por milhões de usuários.
+                    O Brasil é o 5° país mais conectado do mundo. Por este motivo, o seu
+                    negócio não pode ficar fora do do mercado digita</p>
+            </div>
+        </article>
+        <article class="servico">
+            <figure>
+                <img src="img/cs.jpg" alt="Criação de Sites">
+            </figure>
+            <div class="inner">
+                <a href="#">Criação de Sites"</a>
+                <h4>Sites Administráveis</h4>
+                <p>Agora você pode administrar seu site quando e como quiser.
+                    E melhor ainda pois você pode pagar por este serviço, pois desenvolvemos de
+                    forma. Seu site atualizado, com seus últimos
+                    produtos, integração com redes sociais, agora é possível</p>
+            </div>
+        </article>
+    </main>
+    <!-- Newsletter-->
+    <section class="newsletter">
+        <h2>Inscreva-se agora!</h2>
+        <h3>Receba novidades, dicas e muito mais</h3>
+        <form action="cadatro.php" method="post">
+            <input type="email" name="email" placeholder="Seu email">
+            <button>Cadastrar</button>
+        </form>
+    </section>
+    <!-- Rodapé -->
+    <footer class="rodape">
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="#"><i class="fab fa-google fa-lg"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-lg"></i></a>
+            <a href="#"><i class="fas fa-envelope fa-lg"></i></a>
+        </div>
+        <p class="copyright">
+            Copyright &copy; NodeProp 2020. Todos os diretos Reservados.
+        </p>
+    </footer>
+    <!-- Efeito de Abrir e Fechar Menu Hamburguer em Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(".btn-menu").click(function() {
+            $(".menu").show();
+        });
+        $(".btn-close").click(function() {
+            $(".menu").hide();
+        });
+    </script>
+</body>
+
+</html>
