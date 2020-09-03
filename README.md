@@ -12,4 +12,4 @@ e nele aprendi outras técnicas e conceitos como:
 - Conceito de Mobile First - Móvel Primeiro usando o DevTools do Edge
 - O Famoso site Can'I Use, para analisar certas propiedades HTML e CSS antes de aplicar em seu projeto.
 
-Para quem quiser o Layout tanto Mobile como Web para analise e diagramação ;)
+Para quem quiser o Layout tanto Mobile como Web para analise e diagramação só baixar aqui!;)
